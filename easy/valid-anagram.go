@@ -1,4 +1,4 @@
-package main
+package easy
 
 import "fmt"
 
@@ -105,7 +105,7 @@ func validAnagram4(s, t string) bool {
 	return tCount == sCount //it's straight forward to compare array
 }
 
-func main() {
+func RunValidAnagram() {
 	fmt.Println(validAnagram1("anagram", "nagaram"))
 	fmt.Println(validAnagram2("a", "ab"))
 	fmt.Println(validAnagram3("ggii", "eekk"))
