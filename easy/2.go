@@ -106,6 +106,8 @@ func validAnagram4(s, t string) bool {
 }
 
 func RunValidAnagram() {
+	fmt.Println("EASY : VALID ANAGRAM")
+
 	fmt.Println(validAnagram1("anagram", "nagaram"))
 	fmt.Println(validAnagram2("a", "ab"))
 	fmt.Println(validAnagram3("ggii", "eekk"))

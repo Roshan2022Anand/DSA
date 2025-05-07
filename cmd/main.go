@@ -2,6 +2,7 @@ package main
 
 import (
 	"dsa/easy"
+	"dsa/medium"
 	"os"
 )
 
@@ -13,5 +14,9 @@ func main() {
 		easy.RunTwoSum()
 	case "e2":
 		easy.RunValidAnagram()
+	case "m1":
+		medium.RunGrpAnagram()
+	case "m2":
+		medium.RunLenOstr()
 	}
 }
