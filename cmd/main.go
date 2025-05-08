@@ -14,6 +14,8 @@ func main() {
 		easy.RunTwoSum()
 	case "e2":
 		easy.RunValidAnagram()
+	case "e3":
+		easy.RunContainDuplicate()
 	case "m1":
 		medium.RunGrpAnagram()
 	case "m2":
