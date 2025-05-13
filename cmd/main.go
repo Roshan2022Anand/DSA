@@ -16,6 +16,8 @@ func main() {
 		easy.RunValidAnagram()
 	case "e3":
 		easy.RunContainDuplicate()
+	case "e4":
+		easy.Run1stUniqChar()
 	case "m1":
 		medium.RunGrpAnagram()
 	case "m2":
