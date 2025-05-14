@@ -18,6 +18,8 @@ func main() {
 		easy.RunContainDuplicate()
 	case "e4":
 		easy.Run1stUniqChar()
+	case "e5":
+		easy.RunMrg2List()
 	case "m1":
 		medium.RunGrpAnagram()
 	case "m2":
